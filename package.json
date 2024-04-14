@@ -9,6 +9,7 @@
     "seed:artist": "node ./seeds/artists.seed.js",
     "seed:songs": "node ./seeds/songs.seed.js",
     "seed:playLists": "node ./seeds/playLists.seed.js",
+    "seed:all": "npm run seed:users && npm run seed:artist && npm run seed:songs && npm run seed:playLists",
     "start:watch": "node --watch index.js",
     "start": "node index.js",
     "lint": "eslint",
